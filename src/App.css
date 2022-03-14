@@ -1,3 +1,17 @@
+
+:root {
+    --brand-color: #6495ED;
+    --gen-padding: 3px;
+    --gen-margin: .63rem;
+    --gen-bord-rad: 3px;
+    --gen-backg-color: rgba(243, 243, 243, 0.8);
+}
+section {
+    margin: var(--gen-margin);
+    background-color: var(--gen-backg-color);
+    border-radius: var(--gen-bord-rad);
+}
+
 .App {
   text-align: center;
 }
@@ -18,3 +32,4 @@
   color: white;
   margin-top: 20px;
 }
+
