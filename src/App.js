@@ -1,8 +1,9 @@
-import logo from './simba1.svg';
+
 import './App.css';
 import Products from "./components/Product/Products";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, {Component} from "react";
+import JumbotronComponent from "./components/Jumbotron/JumbotronComponent";
 
 
 // function App() {
@@ -35,12 +36,8 @@ class App extends Component {
         return (
             <section>
                 <div className="container text-center p-2">
-                <header className="App-header">
-                    <img src={logo} className="App-logo" alt="logo" />
-                </header>
-                <h1>
-                    <u>Art Shop</u>
-                </h1>
+                <JumbotronComponent />
+
                 <Products/>
 
             </div>
